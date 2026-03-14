@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C!PHER_TOKEN</title>
+    <link rel="stylesheet" type="text/css"  href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div id="icon">
+            <img src="../components/logo.png" alt="Logo">
+            <h3>C!PHER_TOKEN</h3>
+        </div>
+        <div id="header-buttons">
+            <input type="text" placeholder="Search">
+            <select name="languages" id="languages">
+               <option value="ENGLISH">ENGLISH</option>
+               <option value="......">.....</option>
+            </select>
+        </div>
+    </div>
+
+    <div id="body">
+        <div id="input">
+            <h3>ENTER YOUR TOKEN HERE</h3>
+            <textarea id="token" placeholder="Enter your token here..."></textarea>
+            <button onclick="decode()">DECODE</button>
+        </div>
+        <div id="output">
+            <div id="decoded_header">
+                <h3>DECODED_HEADER</h3>
+                <textarea id="decoded_header_text" placeholder="header"></textarea>
+            </div>
+            <div id="decoded_payload">
+                <h3>DECODED_PAYLOAD</h3>
+                <textarea id="decoded_payload_text" placeholder="payload"></textarea>
+            </div>
+            <div id="decoded_signature">
+                <h3 style="display: inline;">DECODED_SIGNATURE<h6 style="display: inline;"> (optional) </h6></h3>
+                <textarea id="decoded_signature_text" placeholder="signature"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="part1">
+            <div id="icon">
+                <img src="../components/logo.png" alt="Logo">
+                <h3>C!PHER_TOKEN</h3>
+            </div>
+        </div>
+
+        <div id="copyright">
+            <h3>Presented By Aaryan</h3>
+            <h5>Copyright © 2026 reserved. All rights reserved.</h5>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
