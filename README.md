@@ -32,9 +32,6 @@ Backend:
 
 ---
 
-## Project Structure
-
-
 ---
 
 ## Installation
